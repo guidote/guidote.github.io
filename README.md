@@ -1,1 +1,1 @@
-# Grocery-Store-SOEN-287
+# Grocery Store SOEN287
