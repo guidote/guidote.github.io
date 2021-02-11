@@ -29,7 +29,7 @@
             display: flex;
             clear: both;
         }
-        .dropbutton {
+        .button {
             background-color: #c08af2;
             color: white;
             border: none;
@@ -44,7 +44,7 @@
             min-width: 200pt;
         }
         .dropdown:hover .dropdown-content {display: block;}
-        .dropdown:hover .dropbtn {background-color: #5b4173;}
+        .dropdown:hover .button {background-color: #5b4173;}
     </style>
 </head>
     <body>
@@ -60,10 +60,13 @@
                 <p><strong>Price: </strong>$8.00, pack of 6 peaches</p>
                 <p>120-150 grams per peach</p>
                 <div class="dropdown" style="float:left;">
-                   <button class="dropbutton">More Information</button>
+                   <button class="button">More Information</button>
                    <div class="dropdown-content" style="left:0;">
                        <p>Ontarian Peaches.<br> Sweet and juices peaches, just like the peach emoji.</p>
                    </div>
+                </div>
+                <div>
+                    <button class="button"><p>Add to Cart</p><img src="img/cart.png" style="width:10pt;height:10pt;"></button>
                 </div>
             </div>
         </div>
