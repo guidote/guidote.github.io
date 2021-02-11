@@ -30,6 +30,22 @@
             display: flex;
             clear: both;
         }
+       .dropbutton {
+            background-color: #c08af2;
+            color: white;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 200pt;
+        }
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: #5b4173;}
     </style>
 </head>
     <body>
@@ -44,7 +60,12 @@
                 <p><strong>Origin: </strong>Costa Rica</p>
                 <p><strong>Price: </strong>$1.40/kg</p>
                 <p>100-120 grams</p>
-                <p>Yellow Banana. Can be eaten raw or used in cooking. Classic banana taste. Keep out of reach of monkeys and men in yellow hats.</p>
+                <div class="dropdown" style="float:left;">
+                   <button class="dropbutton">More Information</button>
+                   <div class="dropdown-content" style="left:0;">
+                       <p>Yellow Banana.<br> Can be eaten raw or used in cooking. Classic banana taste. Keep out of reach of monkeys and men in yellow hats.</p>
+                   </div>
+                </div>
             </div>
         </div>
     </body>

@@ -29,6 +29,22 @@
             display: flex;
             clear: both;
         }
+        .dropbutton {
+            background-color: #c08af2;
+            color: white;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 200pt;
+        }
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: #5b4173;}
     </style>
 </head>
     <body>
@@ -43,7 +59,12 @@
                 <p><strong>Origin: </strong> Canada</p>
                 <p><strong>Price: </strong>$8.00, pack of 6 peaches</p>
                 <p>120-150 grams per peach</p>
-                <p>Ontarian Peaches. Sweet and juices peaches, just like the peach emoji.</p>
+                <div class="dropdown" style="float:left;">
+                   <button class="dropbutton">More Information</button>
+                   <div class="dropdown-content" style="left:0;">
+                       <p>Ontarian Peaches.<br> Sweet and juices peaches, just like the peach emoji.</p>
+                   </div>
+                </div>
             </div>
         </div>
     </body>

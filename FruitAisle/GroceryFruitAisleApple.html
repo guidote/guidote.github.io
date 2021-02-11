@@ -30,6 +30,22 @@
             display: flex;
             clear: both;
         }
+        .dropbutton {
+            background-color: #c08af2;
+            color: white;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 200pt;
+        }
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: #5b4173;}
     </style>
 </head>
     <body>
@@ -44,8 +60,13 @@
                 <p><strong>Origin: </strong> U.S</p>
                 <p><strong>Price: </strong> $4.20/kg</p>
                 <p>80-120 grams</p>
-                <p>Mcintosh Apple. Can be eaten raw or used in cooking. Classic apple taste.</p>
+               <div class="dropdown" style="float:left;">
+                   <button class="dropbutton">More Information</button>
+                   <div class="dropdown-content" style="left:0;">
+                       <p>Mcintosh Apple.<br>Can be eaten raw or used in cooking. Classic apple taste.</p>
+                   </div>
+                </div>
             </div>
-    </div>
+        </div>
     </body>
 </html>

@@ -29,6 +29,22 @@
             display: flex;
             clear: both;
         }
+        .dropbutton {
+            background-color: #c08af2;
+            color: white;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 200pt;
+        }
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: #5b4173;}
     </style>
 </head>
     <body>
@@ -43,7 +59,10 @@
                 <p><strong>Origin: </strong> Quebec</p>
                 <p><strong>Price: </strong>$7.00 per pack</p>
                 <p>340 grams</p>
-                <p>Strawberries grown in Quebec. Sweet and all natural.</p>
+                 <div class="dropdown" style="float:left;">
+                     <button class="dropbutton">More Information</button><div class="dropdown-content" style="left:0;">     <p>Strawberries grown in Quebec.<br> Sweet and all natural.</p>
+                   </div>
+                </div>
             </div>
         </div>
     </body>
