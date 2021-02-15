@@ -1,0 +1,78 @@
+body{
+  background-color:white;
+  font-family: Arial;
+}
+h1{
+  &nbsp;
+  font-size: 50pt;
+  color: #ffffff;
+  background: #5b4173;
+  margin-top: 0px;
+}
+.logo{
+  width:67pt;
+  height:70pt;
+}
+
+.drinkImg{
+  width:300px;
+  height:300px;
+  margin-top:100px;
+  margin-bottom:30px;
+  border-radius: 20px 20px 20px 20px;
+
+}
+.topnav{
+  overflow: hidden;
+  background-color: #5b4173;
+}
+
+p{
+  text-align: center;
+  font-size: 30pt;
+  font-stretch: semi-condensed;
+  font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.grid-container {
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left left middle middle right right'
+    'footer footer footer footer footer footer';
+
+.left, .middle, .right {
+      padding: 10px;
+      height: 300px;
+
+    }
+
+.left {
+      grid-area: left;
+}
+
+.middle {
+    grid-area: middle;
+}
+
+.right {
+    grid-area: right;
+}
