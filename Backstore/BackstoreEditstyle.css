@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+html, body{
+    font-family: Arial;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+/* USER BANNER */
+.userbanner{
+    background-color: black;
+    height:32px;
+    width:100%;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+}
+.userbanner ul{
+    margin-right: 20px;
+    text-align: right;
+}
+
+.userbanner ul li{
+    display: inline-block;
+    line-height:25px;
+    margin 10px 5px;
+}
+
+.userbanner ul li a{
+    color: white;
+    border-radius: 3px;
+    text-decoration:none;
+    padding: 5px 15px;
+}
+.userbanner ul li a:hover{
+    background: #c08af2;
+    color:#5b4173;
+}
+
+/* LOGO BANNER */
+.img-banner{
+    width:100%;
+
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    background-color: #5b4173;
+    height:50px;
+}
+
+nav ul{
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height:50px;
+    margin 10px 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 30px;
+    border-radius: 3px;
+    text-decoration:none;
+    padding: 5px 15px;
+}
+nav ul li a:hover{
+    background: #c08af2;
+    color:#5b4173;
+}
+
+/* ROAD MAP BANNER */
+.page-header{
+    font-size: 25px;
+    color:#5b4173;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ALL MIDDLE PORTION */
+.main{
+    display: flex;
+    width:100%;
+}
+
+/* SIDE MENU */
+.sidemenu{
+}
+
+.sidemenu ul{
+    margin-right: 20px;
+    text-align: Left;
+    padding-top: 15px;
+    padding-bottom: 15px;;
+}
+.sidemenu ul li{
+    line-height:15px;
+    margin 10px 5px;
+    margin-top: 10px;
+}
+
+.sidemenu ul li a{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+.sidemenu ul li a:hover{
+    color:#5b4173;
+    font-style: italic;
+}
+
+.sidemenu ul li .active{
+    color:#5b4173;
+    font-weight: bolder;
+    text-decoration: underline ;
+}
+
+/* PRODUCT GRID */
+.product-grid{
+ display:flex;
+ flex-wrap: wrap;
+ width:100%;
+}
+
+/* PRODUCT TILE */
+.oneProduct{
+    padding:2%;
+}
+
+.oneProduct img{
+width:200px;
+border-radius: 10px;
+border-color: white;
+}
+
+.oneProduct .product-label a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    display:block;
+    text-align:center;
+    
+}
+
+.oneProduct a:hover{
+    text-decoration: none;
+    color: #5b4173;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-description{
+
+}
+
+.description-btn{
+    background: black;
+    color:white;
+    border-radius: 15px;
+    padding:5px;
+}
+
+.cart-btns{
+    margin-top:10px;
+    display:block;
+    text-align:center;
+}
+
+.minus-plus-btn{
+    background: black;
+    color:white;
+    width:25px;
+    font-weight: bolder;
+    display:inline-block;
+    border-radius: 5px;;
+}
+
+.add-cart-btn{
+    background: black;
+    color:white;
+    display:inline-block;
+    border-radius: 5px;;
+}
+
+/*EDIT FORM*/
+
+.edit-form{
+    
+}
+
+/* FOOTER */
+.footer{
+
+    background-color: #5b4173;
+    height:175px;
+    font-size: 20px;;
+}
+
+.footer ul{
+    margin-right: 20px;
+    text-align: Left;
+    padding-top: 15px;
+    padding-bottom: 15px;;
+}
+.footer ul li{
+    line-height:20px;
+    margin 10px 5px;
+    margin-top: 15px;;
+}
+
+.footer ul li a{
+    color: white;
+    border-radius: 3px;
+    text-decoration:none;
+    padding: 0px 15px;
+}
+.footer ul li a:hover{
+    background: #c08af2;
+    color:#5b4173;
+}
