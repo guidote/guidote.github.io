@@ -75,7 +75,7 @@ html, body{
 }
 
 /* NAVIGATION BAR */
-
+/* 
 nav{
     background-color: #5b4173;
     height:50px;
@@ -101,7 +101,7 @@ nav ul li a{
 nav ul li a:hover{
     background: #c08af2;
     color:#5b4173;
-}
+} */
 
 /* ROAD MAP BANNER */
 .page-header{
@@ -186,10 +186,6 @@ float: center;
     font-weight: bold;
 }
 
-.product-description{
-
-}
-
 .description-btn{
     background-color:#0d6efd;
     color:white;
@@ -219,6 +215,10 @@ float: center;
     color:white;
     display:inline-block;
     border-radius: 5px;;
+}
+
+.price{
+    font-weight: bold;
 }
 
 /* FOOTER */
