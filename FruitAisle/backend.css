@@ -121,9 +121,7 @@ html, body{
 .edbutton a{
     color: black;
     text-decoration:none;
-    font-weight: bold;
 }
 .edbutton a:hover{
     color:#5b4173;
-    font-style: italic;
 }
