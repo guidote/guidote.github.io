@@ -19,26 +19,19 @@
 <body>
 <div class="container-fluid">
 
-<!-- Black User banner -->
+<!-- Black User banner -->s
 <div class="userbanner"> 
+    <img id="tiny-logo" src="img/logo.png"/>
     <ul>
-        <li><a href="#"> <i class="fas fa-shopping-cart"></i></i> Shopping Cart</a></li>
-        <li><a href="#"><i class="fas fa-user"></i> Login/sign up</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i></i> Shopping Cart</a></li>
+        <li><a href="#"><i class="fas fa-user"></i> Login</a></li>
+        <li><a href="#"><i class="fas fa-user-plus"></i> Sign up</a></li>
+        
     </ul>
 </div>
 
 <!-- Logo Banner -->
-<div class = "Logo">
-    <img class = "img-banner" src="img/UMM_GROCERY_STORE_1 - Copy.png" alt="grapes" />
-</div>
-
-<!-- Navigation Bar -->
-<nav>
-    <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">AISLES</a></li>
-    </ul>
-</nav>
+<div class = "img-banner"><p class="logo">UMM GROCERY</p></div>
 
 <!-- Road Map Banner-->
 <div class="page-header"> AISLES &gt; VEGETABLES &gt; TOMATOES</div>
@@ -72,40 +65,33 @@
     <!-- Main part-->
     <section class="product-grid">
          <div class="oneProduct"> 
-            <div class="product-img"> <a href="#"><img src="img/TOMATO pexels-kaboompics-com-5617.jpg"/> </a>  </div> 
-            
-            <div class="cart-btns"><button class="minus-plus-btn">-</button>
-              <input type="text" size="1" />
-              <button class="minus-plus-btn">+</button>
-            </div>
-            <div class="cart-btns"><button class="add-cart-btn">Add to Cart</button></div>
-
+            <div class="product-img"> <a href="#"><img src="img/TOMATO.png" alt="Tomato"/> </a>  </div> 
          </div>
+
          <div class=" oneProduct">
-           <div class="product-description"> <h1>Tomatoes</h1>
+           <div class="product-description"> 
+            <span class="text-uppercase">Lufa Farms</span>
+            <h3>Tomatoes</h3>   
             <p> $2.20 avg. each (200g avg.)</p>
             <p> $11.00/kg $4.99/lb.</p>
             <p> Origin: <em>Quebec</em></p>
-            <button class="description-btn"> More Description </button>
+            <div class="d-flex flex-row">
+                <!-- <span class="minus">-</span> -->
+                <input value="1" type="number" min="0"/>
+                <!-- <span class="plus">+</span> -->
+            </div>
+            <button type="button" class="description-btn">Add to Cart</button>
+            <br><button class="description-btn"> More Description </button>
             <p> The tomato is technically a fruit. It can be eaten raw or cooked. It is perfect for salads, pizzas, pastas and many more dishes. </p>
 
           </div>
-        </div>
+          </div>
+        
 
     </section>
 
 </section>
 
-<!-- Footer -->
-<div class="footer"> 
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Aisles</a>
-        </li>
-        <li><a href="#"> Login/Sign up</a></li>
-        <li><a href="#">Backstore</a></li>
-    </ul>
-</div>
 
 </div>
 </body>

@@ -163,9 +163,10 @@ nav ul li a:hover{
 }
 
 .oneProduct img{
-width:200px;
+height:100px;
 border-radius: 10px;
 border-color: white;
+float: center;
 }
 
 .oneProduct .product-label a{
@@ -190,10 +191,12 @@ border-color: white;
 }
 
 .description-btn{
-    background: black;
+    background-color:#0d6efd;
     color:white;
-    border-radius: 15px;
-    padding:5px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    margin-top: 5px;;
 }
 
 .cart-btns{
