@@ -21,25 +21,17 @@
 
 <!-- Black User banner -->
 <div class="userbanner"> 
+    <img id="tiny-logo" src="img/logo.png"/>
     <ul>
-        <li><a href="#"> <i class="fas fa-shopping-cart"></i></i> Shopping Cart</a></li>
-        <li><a href="#"><i class="fas fa-user"></i> Login/sign up</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i></i> Shopping Cart</a></li>
+        <li><a href="#"><i class="fas fa-user"></i> Login</a></li>
+        <li><a href="#"><i class="fas fa-user-plus"></i> Sign up</a></li>
+        
     </ul>
 </div>
 
 <!-- Logo Banner -->
-<div class = "Logo">
-    <img class = "img-banner" src="img/UMM_GROCERY_STORE_1 - Copy.png" alt="grapes" />
-</div>
-
-<!-- Navigation Bar -->
-<nav>
-    <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">AISLES</a></li>
-        <li><a href="#">BACKSTORE</a></li>
-    </ul>
-</nav>
+<div class = "img-banner"><p class="logo">UMM GROCERY</p></div>
 
 <!-- Road Map Banner-->
 <div class="page-header"> BACKSTORE &gt; PRODUCTS LIST &gt; ADD OR EDIT</div>
@@ -67,47 +59,44 @@
          <div class="oneProduct"> 
             <div class="product-img"> <a href="#"><img src="img/CARROTS pexels-mali-maeder-143133.jpg"/> </a></div> 
             
-            <div class="cart-btns"><button class="add-cart-btn">Edit Picture</button></div>
+            <div class="cart-btns"><button class="description-btn">Edit Picture</button></div>
 
          </div>
          <div class=" oneProduct">
-            <h2>Enter new information below:</h2>
 
-            <form class="edit-form" action="#" method="get">
-
-           <div class="product-description"> <p> Product Name<p>
-            <input type="text" name="Product Name" size="25">
-
-            <p>Price</p>
-            <input type="text" name="Price" size="50">
-
-            <p> Price/Quantity</p>
-            <input type="text" name="Price/Quantity" size="50">
-
-            <p> Origin</em></p>
-            <input type="text" name="Origin" size="25">
-
-            <p> Description</p>
-            <input type="text" name="Description" size="144">
-          </div>
-        </form>
-        <input type="submit" value="Save Changes" class="description-btn"></input>
+        <h3> Enter the new information below </h3>
+        <form action="#" method="get">
+          <label for="frame">Product Name</label>
+          <br>
+          <input type ="text"  name = "product-name">
+          <br>
+          <label for="frame">Brand</label>
+          <br>
+          <input type ="text"  name = "brand">
+            <br>
+            <label for="frame">Price</label>
+            <br>
+         <input type ="text"  name = "price">
+            <br>
+            <label for="frame">Price/Quantity</label>
+            <br>
+            <input type ="text"  name = "price-quantity">
+            <br>
+            <label for="frame">Origin</label>
+            <br>
+            <input type ="text"  name = "origin">
+            <br>
+            <label for="frame">Description</label>
+            <br>
+            <input type ="text"  name = "price">
+            </form>
+            <input type="submit" value="Save Changes" class="description-btn"></input>
         </div>
         
     </section>
 
 </section>
 
-<!-- Footer -->
-<div class="footer"> 
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Aisles</a>
-        </li>
-        <li><a href="#"> Login/Sign up</a></li>
-        <li><a href="#">Backstore</a></li>
-    </ul>
-</div>
 
 </div>
 </body>
