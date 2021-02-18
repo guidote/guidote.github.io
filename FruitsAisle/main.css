@@ -101,6 +101,8 @@ html, body {
 
 /*TITLE*/
 .page-header{
+    margin-top:0;
+    margin-bottom:0;
     font-size: 25px;
     color:#5b4173;
     font-style: italic;
@@ -110,7 +112,7 @@ html, body {
 
 /*SIDE MENU*/
 .sidemenu{
-    font-family: Segoe UI, sans-serif
+    font-family: "Segoe UI", sans-serif
 }
 .sidemenu ul{
     margin-right: 20px;
