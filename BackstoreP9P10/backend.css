@@ -3,6 +3,14 @@
    src: url(Segeo UI.tff);
 }
 
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 th {
      color: white; 
     background-color:#5b4173;
@@ -121,20 +129,20 @@ html, body{
     margin-right: 20px;
     text-align: Left;
     padding-top: 15px;
-    padding-bottom: 15px;;
+    padding-bottom: 15px;
 }
 .sidemenu ul li{
-    line-height:15px;
-    margin 10px 5px;
+    line-height: 15px;
+    margin: 10px 5px;
     margin-top: 10px;
 }
 .sidemenu ul li a{
     color: black;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: bold;
 }
 .sidemenu ul li a:hover{
-    color:#5b4173;
+    color: #5b4173;
     font-style: italic;
 }
 .sidemenu ul li .active{
