@@ -3,6 +3,15 @@
    src: url(Segeo UI.tff);
 }
 
+th {
+     color: white; 
+    background-color:#5b4173;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
 /*RESPONSIVE PART OF THE TABLE*/
 @media(max-width:809px){
     table th{
@@ -15,16 +24,15 @@
         background-color: #5b4173 
     }
 
-    th, td, tr{
+    td, tr{
         text-align: center;
         display:block;
         width:100%;
         align-content: center;
-        margin-right:0;
+        margin-right: 0;
     }
 }
-th {padding-left: 4pt; padding-right: 4pt; text-align: center; color: white; background-color: #5b4173}
-td {text-align: center; padding: 3pt; width: 14%;}
+
 .size {margin-left: 5%; margin-right: 5%; width: 90%}
 
 html, body{
