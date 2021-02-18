@@ -114,7 +114,10 @@ html, body{
 .img-banner{width:100%;}
 
 /*TITLE*/
-.page-header{
+.title{
+    margin-bottom: 0;
+    margin top: 0;
+    border-bottom: none;
     font-size: 25px;
     color:#5b4173;
     font-style: italic;
