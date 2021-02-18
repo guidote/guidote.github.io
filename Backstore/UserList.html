@@ -1,1 +1,101 @@
-
+<!DOCTYPE html>
+<html lang en>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ummm Grocery User List</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    <script src="https://kit.fontawesome.com/a10dc5d5d5.js" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="backend.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <!--black banner-->
+    <div class="userbanner"> 
+    <img id="tiny-logo" src="img/logo.png"/>
+    <ul>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Shopping Cart</a></li>
+        <li><a href="#"><i class="fas fa-user"></i> Login</a></li>
+        <li><a href="#"><i class="fas fa-user-plus"></i> Sign up</a></li>
+        
+        </ul>
+    </div>
+    <!--header-->
+    <div class = "img-banner"><p class="logo">UMM GROCERY</p></div>
+    <!--title-->
+    <div class="page-header">User List</div>
+    <!--side menu-->
+    <section class="main">
+    <div class="sidemenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Aisles</a></li>
+            <li><a href="#">Backstore</a>
+                <ul>
+                    <li><a class = "active" href="#">User List</a></li>
+                    <li><a href="#">Product List</a></li>
+                    <li><a href="#">Order List</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="edbutton">
+    <table border="border">
+        <tr>
+            <th colspan="6"> User Information</th>
+            <th> Edit User Information</th>
+        </tr>
+        <tr>
+            <th>
+                Name</th>
+            <th>
+                Date Joined</th>
+            <th>
+                Email</th>
+            <th>
+                Phone Number</th>
+            <th>
+                Birthday</th>
+            <th>
+                Ummm Grocery Card</th>
+            <th>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Gabrielle Guidote</td>
+            <td>
+                ##-##-####</td>
+            <td>
+                gabrielle.guidote@gmail.com</td>
+            <td>
+                ###-####-###</td>
+            <td>
+                ##-##-####</td>
+            <td>
+                ###-###-###</td>
+            <td><a href="UserEdit.html"><i class="fa fa-cog  fa-lg" aria-hidden="true"></i></a> <br> <a href="#"><i class="fa fa-window-close  fa-lg" aria-hidden="true"></i></a></td>
+        </tr>
+        <tr>
+            <td>
+                John Doe</td>
+            <td>
+                ##-##-####</td>
+            <td>
+                john.doe@yahoo.ca</td>
+            <td>
+                ###-####-###</td>
+            <td>
+                ##-##-####</td>
+            <td>
+                ###-###-###</td>
+            <td><a href="UserEdit.html"><i class="fa fa-cog  fa-lg" aria-hidden="true"></i></a> <br> <a href="#"><i class="fa fa-window-close  fa-lg" aria-hidden="true"></i></a></td>
+        </tr>
+    </table>
+    </div>
+    </section>
+</div>
+</body>
+</html>
