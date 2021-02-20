@@ -114,6 +114,7 @@ html, body {
 /*SIDE MENU*/
 .sidemenu{
     font-family: "Segoe UI", sans-serif;
+    width: 30%;
 }
 .sidemenu ul{
     margin-right: 20px;
@@ -147,7 +148,7 @@ html, body {
 .product-grid{
  display: flex;
  flex-wrap: wrap;
- width:100%;
+ width: 70%;
 }
 
 /* PRODUCT TILE */
