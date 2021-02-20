@@ -14,13 +14,6 @@
 html, body {
     font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.imgitem {
-    float: center;
-    width: 60%;
-    align-content: center;
-}
-
 .column {
     float: left;
     padding: 10pt;
