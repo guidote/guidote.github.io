@@ -10,6 +10,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+table {
+    background-color: #e6e6ff;
+}
 
 th {
      color: white; 
@@ -20,6 +23,11 @@ th {
 td {
     text-align: center;
 }
+
+table tr:nth-child(even){
+    background-color: #d9ccff;
+}
+
 /*RESPONSIVE PART OF THE TABLE*/
 @media(max-width:809px){
     table th{
