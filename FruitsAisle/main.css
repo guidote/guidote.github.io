@@ -157,9 +157,11 @@ html, body {
 }
 
 .oneProduct img{
-border-radius: 10px;
-border-color: white;
-float: center;
+    border-radius: 10px;
+    border-color: white;
+    float: center;
+    height: 30px;
+    width: 30px;
 }
 
 .oneProduct .product-label a{
