@@ -111,33 +111,33 @@ html, body {
     text-align: center;
 }
 
-/*SIDE MENU*/
+/* SIDE MENU */
 .sidemenu{
-    font-family: "Segoe UI", sans-serif;
-    width: 30%;
 }
+
 .sidemenu ul{
     margin-right: 20px;
     text-align: Left;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;;
 }
 .sidemenu ul li{
-    line-height:13px;
+    line-height:15px;
     margin 10px 5px;
     margin-top: 10px;
 }
+
 .sidemenu ul li a{
-    text-align: Left;
     color: black;
     text-decoration:none;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 16px;
 }
 .sidemenu ul li a:hover{
     color:#5b4173;
     font-style: italic;
 }
+
 .sidemenu ul li .active{
     color:#5b4173;
     font-weight: bolder;
@@ -146,9 +146,9 @@ html, body {
 
 /* PRODUCT GRID */
 .product-grid{
- display: flex;
+ display:flex;
  flex-wrap: wrap;
- width: 70%;
+ width:100%;
 }
 
 /* PRODUCT TILE */
