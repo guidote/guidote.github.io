@@ -14,18 +14,6 @@
 html, body {
     font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
-.column {
-    float: left;
-    padding: 10pt;
-    width: 50%;
-    text-align: center;
-}
-.row {
-    display: flex;
-    content: "";
-    clear: both;
-}
-
 .main{
     display: flex;
     width: 100%;
@@ -150,6 +138,7 @@ html, body {
 }
 
 .oneProduct img{
+    width: 100px;
     height: 100px;
     border-radius: 10px;
     border-color: white;
