@@ -167,6 +167,7 @@ nav ul li a:hover{
 
 /* SIDE MENU */
 .sidemenu{
+	display: inline-block;
 }
 
 .sidemenu ul{
