@@ -223,7 +223,7 @@ float: center;
     font-weight: bold;
 }
 .content{
-    min-height: 59.1vh;
+    min-height: 59vh;
     display: flex;
     width:100%;
 }
