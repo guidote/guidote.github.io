@@ -169,11 +169,7 @@ nav ul li a:hover{
 }
 
 /*content*/
-.content{
-	min-height: 62.9vh;
-	display: flex;
-    width:100%;
-}
+
 .product-list{
 	width: 80%;
 	display: flex;
@@ -246,6 +242,11 @@ nav ul li a:hover{
     border-radius: 15px;
     padding:5px;
 	margin: 4px 0px 0px 0px;
+}
+.content{
+    min-height: 58.7vh;
+    display: flex;
+    width:100%;
 }
 /*footer*/
 
