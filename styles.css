@@ -442,6 +442,8 @@ nav ul li a:hover{
 
 /* SIDE MENU */
 .sidemenu{
+    display: inline-block;
+    height: 80%;
 }
 
 .sidemenu ul{
@@ -471,11 +473,16 @@ nav ul li a:hover{
     font-weight: bolder;
     text-decoration: underline ;
 }
-
+.content{
+    min-height: 58.7vh;
+    display: flex;
+    width:100%;
+}
 
 /* FOOTER */
 .footer{
-
+    position: relative;
+    width: 100%;
     background-color: #5b4173;
     height:215px;
     font-size: 20px;;
