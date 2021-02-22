@@ -156,3 +156,34 @@ form input {
     margin: 10px 0;
     font-size: 14px;
 }
+
+/* FOOTER */
+.footer{
+
+    background-color: #5b4173;
+    height:175px;
+    font-size: 20px;;
+}
+
+.footer ul{
+    margin-right: 20px;
+    text-align: Left;
+    padding-top: 15px;
+    padding-bottom: 15px;;
+}
+.footer ul li{
+    line-height:20px;
+    margin 10px 5px;
+    margin-top: 15px;;
+}
+
+.footer ul li a{
+    color: white;
+    border-radius: 3px;
+    text-decoration:none;
+    padding: 0px 15px;
+}
+.footer ul li a:hover{
+    background: #c08af2;
+    color:#5b4173;
+}
