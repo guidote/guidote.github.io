@@ -120,6 +120,8 @@ nav ul li a:hover{
 
 /* SIDE MENU */
 .sidemenu{
+    display: inline-block;
+    height: 80%;
 }
 
 .sidemenu ul{
@@ -220,10 +222,15 @@ float: center;
 .price{
     font-weight: bold;
 }
-
+.content{
+    min-height: 62.9vh;
+    display: flex;
+    width:100%;
+}
 /* FOOTER */
 .footer{
-
+    position: relative;
+    width: 100%;
     background-color: #5b4173;
     height:175px;
     font-size: 20px;;
