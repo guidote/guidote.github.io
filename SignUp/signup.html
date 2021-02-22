@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ummm Grocery | Sign Up </title>
+   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a10dc5d5d5.js" crossorigin="anonymous"></script>
+    <!-- BOOTSRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<section>
+<div class="container-fluid">
+
+<!-- Black User banner -->
+<div class="userbanner">
+    <img id="tiny-logo" src="img/logo.png"/>
+    <ul>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Shopping Cart</a></li>
+        <li><a href="#"><i class="fas fa-user"></i> Login</a></li>
+        <li><a href="#"><i class="fas fa-user-plus"></i> Sign up</a></li>
+
+    </ul>
+</div>
+
+<!-- Logo Banner -->
+<div class = "img-banner"><p class="logo">UMMM GROCERY</p></div>
+
+<!-- MAIN SECTION-->
+<section class="main">
+
+<!-- Side Menu-->
+    <div class="sidemenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Aisles</a>
+                <ul>
+                    <li><a href="#">Fruits</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Meat</a></li>
+                    <li><a href="#">Drinks</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Seafood</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+        <div class="user_info">
+        <br>
+        <h2> Sign Up to Ummm!</h2>
+          <br>
+          <br>
+
+        <h6>Already have a Ummm.ca account? <a href="#">Sign In</a></h6>
+
+        <!---User info--->
+          <h3>Personal Information</h3>
+            <br>
+        <div class="personal information">
+        <form>
+          <label for="frame">TITLE</label>
+          <br>
+            <form>
+              <select id="title" name="title">
+              <option value="select">Select your title</option>
+              <option value="Mr">Mr.</option>
+              <option value="Mrs">Mrs.</option>
+              <option value="Miss">Miss</option>
+              <option value="Ms">Ms.</option>
+            </select>
+            </form>
+          <br>
+          <div>
+          <table>
+            <tr>
+              <td><label for="frame">FIRST NAME</label></td>
+              <td><label for="frame">LAST NAME</label></td>
+            </tr>
+            <tr>
+              <td><input type ="text" id="userinfo" name = "firstname"></td>
+              <td><input type ="text" id="userinfo" name = lastname"></td>
+           </tr>
+          </table>
+        </div>
+        <br>
+        DATE OF BIRTH
+        <input type="date" id="date" name="birthday">
+        <br>
+        </form>
+
+        <br>
+        </div>
+
+
+
+        <div class="contact information">
+        <h3>Contact Information </h3>
+        <form>
+          <label for="frame">ADRESS(NO,STREET)</label>
+          <br>
+          <input type ="text" id="userinfo" name = "street">
+          <br>
+          <label for="frame">APARTMENT</label>
+          <br>
+          <input type ="text" id="userinfo" name = "app">
+        <br>
+          <table>
+            <tr>
+              <td><label for="frame">CITY</label></td>
+              <td><label for="frame">CONTURY</label></td>
+            </tr>
+            <tr>
+              <td><input type ="text" id="userinfo" name = "city"></td>
+              <td><form><select id="country" name ="country">
+                  <option value="ca">CA</option>
+              </select></form></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td><label for="frame">PROVINCE</label></td>
+              <td><label for="frame">POSTAL CODE</label></td>
+            </tr>
+            <tr>
+              <td><form><select id="province" name="province">
+                <option value="NL">NL</option>
+                <option value="PE">PE</option>
+                <option value="NS">NS</option>
+                <option value="NB">NB</option>
+                <option value="QC">QC</option>
+                <option value="ON">ON</option>
+                <option value="MB">MB</option>
+                <option value="SK">SK</option>
+                <option value="AB">AB</option>
+                <option value="BC">BC</option>
+                <option value="YT">YT</option>
+                <option value="NT">NT</option>
+                <option value="NU">NU</option>
+              </select></form></td>
+              <td><input type ="text" id="userinfo" name = "postal"></td>
+            </tr>
+          </table>
+        </form>
+
+        <form>
+          <table>
+            <tr>
+              <td><label for="frame">PHONE NUMBER</label></td>
+              <td><label for="frame">MOBILE PHONE</label></td>
+            </tr>
+            <tr>
+              <td><input type ="text" id="userinfo" name = "phonenumber"></td>
+              <td><input type ="text" id="userinfo" name = "mobilephone"></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td><label for="frame">EMAIL</label></td>
+              <td><label for="frame">CONFIRM EMAIL</label></td>
+            </tr>
+            <tr>
+              <td><input type ="text" id="userinfo" name = "email"></td>
+              <td><input type ="text" id="userinfo" name = "confirmemail"></td>
+            </tr>
+          </table>
+
+          <label for="frame">PREFERRED LANGUAGE OF CORRESPONDENCE</label>
+          <br>
+          <select id="preferlanguage" name="preferlanguage">
+          <option value="EN">English</option>
+          <option value="FR">French</option>
+          </select>
+          <br>
+          <label for="frame">PASSWORD</label>
+          <br>
+          <input type ="text" id="userinfo" name = "password">
+          <br>
+          <label for="frame">CONFIRM PASSWORD</label>
+          <br>
+          <input type ="text" id="userinfo" name = "confirmpassword">
+          <br>
+          <br>
+        </form>
+        </div>
+
+
+        <div class="subscription">
+        <h3>Subscription to e-communications</h3>
+        <label for="frame"><em>Ummm Newsletter</em></label>
+        <br>
+        <p><input type="checkbox" id="userinfo" name ="subcription">
+        I would like to receive the Ummm newsletter which includes</p>
+          <ul>
+            <li> * recipe ideas including a weekly menu based on flyer specials</li>
+            <li> * nutritional information</li>
+            <li> * special offers and promotions</li>
+            <li> * information on our products and services</li>
+          </ul>
+        <br>
+       </div>
+
+
+
+        <div class="membership">
+        <h3>Do you want to register a Ummm Rewards?</h3>
+         Register for Ummm Rewards to earn points every time you buy online or make an in-store purchase.
+        <br>
+        <img src="img/pointcard.png" alt="Ummm_Membership Card"  class="pointcard">
+        <br>
+        <form>
+          <input type="radio" name="membership" value="option1">Yes, I want one<br>
+          <input type="radio" name="membership" value="option2">No<br>
+          <br>
+        </form>
+        </div>
+
+
+      <div class="consent">
+      <h3>Consent to Conditions of Use and Protection of Personal Information Policy</h3>
+      <form>
+        <input type="checkbox" id="userinfo" name="consentcondition">
+        Yes, I have read and accecpt the conditions of Use and Protection of Personal Information Policy
+      </form>
+      <br>
+      </div>
+
+      <p id="submission">
+      <input type="reset" class="reset" value="Reset" name="resetuserinfo">
+      <input type="submit" class="submit" value ="Create Account" name ="submituserinfo"><br>
+      </p>
+      <br>
+
+</div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Aisles</a>
+        </li>
+        <li><a href="#"> Login/Sign up</a></li>
+        <li><a href="#">Backstore</a></li>
+    </ul>
+</div>
+
+
+</body>
+
+</html>
