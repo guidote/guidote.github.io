@@ -73,7 +73,10 @@ body {
 main {
     display: flex;
 }
-
+.sidemenu{
+    display: inline-block;
+    height: 80%;
+}
 .sidemenu ul{
     margin-right: 20px;
     text-align: Left;
@@ -156,10 +159,15 @@ form input {
     margin: 10px 0;
     font-size: 14px;
 }
-
+.content{
+    min-height: 58.7vh;
+    display: flex;
+    width:100%;
+}
 /* FOOTER */
 .footer{
-
+    position: relative;
+    width: 100%;
     background-color: #5b4173;
     height:175px;
     font-size: 20px;;
