@@ -33,6 +33,12 @@ h1 {
   font-size: 48px;
   font-weight: 100;
 }
+
+.text-over-image{
+font-weight:bold;
+color: white;
+}
+
 .contents1{
   font-size: 20px;
   font-weight: lighter;
