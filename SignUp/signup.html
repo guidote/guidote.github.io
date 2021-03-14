@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Umm Grocery | Sign Up </title>
-   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <title>Ummm Grocery | Sign Up </title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a10dc5d5d5.js" crossorigin="anonymous"></script>
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
+
 
 <body>
 <section>
@@ -30,14 +32,14 @@
 </div>
 
 <!-- Logo Banner -->
-<div class = "img-banner"><p class="logo">UMM GROCERY</p></div>
+<div class = "img-banner"><p class="logo">UMMM GROCERY</p></div>
 
 <!-- MAIN SECTION-->
 <section class="main">
 
 <!-- Side Menu-->
-    <div class="sidemenu">
-          <div class="col-3 col-s-3 menu">
+<div class="row">
+    <div class="col-3 col-s-3 sidemenu">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Aisles</a>
@@ -52,17 +54,15 @@
                 </ul>
             </li>
         </ul>
-       </div>       
-    </div>
+      </div>
 
-    <div class="user_info">
-      <div class="col-6 col-s-9">
+        <div class="col-6 col-s-9 user_info" >
         <br>
-        <h2> Sign Up to Umm!</h2>
+        <h2> Sign Up to Ummm!</h2>
           <br>
           <br>
 
-        <h6>Already have a Umm.ca account? <a href="#">Sign In</a></h6>
+        <h6>Already have a Ummm.ca account? <a href="#">Sign In</a></h6>
 
         <!---User info--->
           <h3>Personal Information</h3>
@@ -82,16 +82,11 @@
             </form>
           <br>
           <div>
-          <table>
-            <tr>
-              <td><label for="frame">FIRST NAME</label></td>
-              <td><label for="frame">LAST NAME</label></td>
-            </tr>
-            <tr>
-              <td><input type ="text" id="userinfo" name = "firstname"></td>
-              <td><input type ="text" id="userinfo" name = lastname"></td>
-           </tr>
-          </table>
+              <label for="frame">FIRST NAME</label>
+              <input type ="text" id="userinfo" name = "firstname">
+
+              <label for="frame">LAST NAME</label>
+              <input type ="text" id="userinfo" name = lastname">
         </div>
         <br>
         DATE OF BIRTH
@@ -114,23 +109,15 @@
           <label for="frame">APARTMENT</label>
           <br>
           <input type ="text" id="userinfo" name = "app">
-        <br>
-          <table>
-            <tr>
-              <td><label for="frame">CITY</label></td>
-              <td><label for="frame">CONTURY</label></td>
-            </tr>
-            <tr>
-              <td><input type ="text" id="userinfo" name = "city"></td>
-              <td><form><select id="country" name ="country">
-                  <option value="ca">CA</option>
-              </select></form></td>
-            </tr>
-          </table>
+          <br>
+          <label for="frame">CITY</label><br>
+          <input type ="text" id="userinfo" name = "city"><br>
+
+
+
           <table>
             <tr>
               <td><label for="frame">PROVINCE</label></td>
-              <td><label for="frame">POSTAL CODE</label></td>
             </tr>
             <tr>
               <td><form><select id="province" name="province">
@@ -148,32 +135,22 @@
                 <option value="NT">NT</option>
                 <option value="NU">NU</option>
               </select></form></td>
-              <td><input type ="text" id="userinfo" name = "postal"></td>
             </tr>
           </table>
-        </form>
 
-        <form>
-          <table>
-            <tr>
-              <td><label for="frame">PHONE NUMBER</label></td>
-              <td><label for="frame">MOBILE PHONE</label></td>
-            </tr>
-            <tr>
-              <td><input type ="text" id="userinfo" name = "phonenumber"></td>
-              <td><input type ="text" id="userinfo" name = "mobilephone"></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td><label for="frame">EMAIL</label></td>
-              <td><label for="frame">CONFIRM EMAIL</label></td>
-            </tr>
-            <tr>
-              <td><input type ="text" id="userinfo" name = "email"></td>
-              <td><input type ="text" id="userinfo" name = "confirmemail"></td>
-            </tr>
-          </table>
+
+        <label for="frame">POSTAL CODE</label><br>
+        <input type ="text" id="userinfo" name = "postal"><br>
+
+        <div>
+        <label for="frame">MOBILE NUMBER</label><br>
+        <input type ="text" id="userinfo" name = "mobilephone">
+        </div>
+
+        <div>
+        <label for="frame">EMAIL</label><br>
+        <input type ="text" id="userinfo" name = "email">
+        </div>
 
           <label for="frame">PREFERRED LANGUAGE OF CORRESPONDENCE</label>
           <br>
@@ -197,10 +174,10 @@
 
         <div class="subscription">
         <h3>Subscription to e-communications</h3>
-        <label for="frame"><em>Umm Newsletter</em></label>
+        <label for="frame"><em>Ummm Newsletter</em></label>
         <br>
         <p><input type="checkbox" id="userinfo" name ="subcription">
-        I would like to receive the Umm newsletter which includes</p>
+        I would like to receive the Ummm newsletter which includes</p>
           <ul>
             <li> * recipe ideas including a weekly menu based on flyer specials</li>
             <li> * nutritional information</li>
@@ -213,10 +190,10 @@
 
 
         <div class="membership">
-        <h3>Do you want to register a Umm Rewards?</h3>
-         Register for Umm Rewards to earn points every time you buy online or make an in-store purchase.
+        <h3>Do you want to register a Ummm Rewards?</h3>
+         Register for Ummm Rewards to earn points every time you buy online or make an in-store purchase.
         <br>
-        <img src="img/pointcard.png" alt="Umm_Membership Card"  class="pointcard">
+        <img src="img/pointcard.png" alt="Ummm_Membership Card"  class="pointcard">
         <br>
         <form>
           <input type="radio" name="membership" value="option1">Yes, I want one<br>
@@ -240,8 +217,10 @@
       <input type="submit" class="submit" value ="Create Account" name ="submituserinfo"><br>
       </p>
       <br>
-     </div> 
-  </div>
+
+</div>
+</div>
+
 </section>
 
 <!-- Footer -->
