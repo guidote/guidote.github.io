@@ -15,6 +15,7 @@ html, body{
 /*container*/
 .container {
 	width: 100%;
+	min-width: 1240px;
 	min-height: 100vh;
 	position: relative;
 }
@@ -230,12 +231,11 @@ nav ul li a:hover{
 	border-radius: 10px;
 }
 .button_box{
-	background: #0d6efd;
-	color:white;
-	border-radius: .3rem;
-	padding: .5rem 1rem;
-	font-size: 1.25rem;
-	margin-top:5px;
+	background: black;
+	color: white;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 4px 0px 0px 0px;
 }
 /*footer*/
 .footer{
